@@ -16,11 +16,15 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "preserveSymlinks": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
   },
   "include": [
-    "src"
-  ]
+    "src/**/*", "decs.d.ts"
+  ],
+  
 }

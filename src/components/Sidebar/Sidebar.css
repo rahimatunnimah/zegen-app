@@ -1,0 +1,31 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100; 
+	padding: 48px 0 0; 
+	box-shadow: inset -1px 0 0 rgba(209, 160, 160, 0.1);
+}
+.sidebar a {
+	font-weight: 500;
+	color: #333;
+}
+.d_icon {
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: -5px;
+	color: #727272;
+}
+.sidebar a:hover .d_icon,
+.sidebar a .active .d_icon {
+	color: inherit;
+}
+
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 56px;
+}
+.sidebar-nav {
+  width: var(--offcanvas-width);
+}

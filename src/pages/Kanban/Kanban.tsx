@@ -1,4 +1,3 @@
-import React from 'react'
 import './Kanban.css'
 import { useState } from 'react'
 import kanbanData from '../../kanbanData'

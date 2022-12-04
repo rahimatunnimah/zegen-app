@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './Form.css'
-import { AiOutlineDelete, AiOutlineEdit } from "react-icons/ai"
+
 
 const FormInvoice = () => {
   return (
